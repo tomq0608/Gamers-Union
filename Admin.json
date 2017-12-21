@@ -1,0 +1,23 @@
+{
+    "name": "Admin",
+    "permissions": [
+        "weight.18",
+        "prefix.18.&f{&6Admin&f}",
+        "nucleus.hat.others",
+        "nucleus.geoip.base",
+        "nucleus.jail.*",
+        "nucleus.serverstat.base",
+        "nucleus.spawnmob.*",
+        "nucleus.vanish.base",
+        "nucleus.vanish.see",
+        "nucleus.vanish.persist",
+        "nucleus.sudo.base",
+        "nucleus.clear.others",
+        "nucleus.commandspy.*",
+        "nucleus.globalmute.base",
+        "nucleus.globalmute.voice.auto",
+        "nucleus.spawn.*",
+        "nations.*"
+    ]
+  }
+  

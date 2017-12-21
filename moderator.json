@@ -1,0 +1,30 @@
+{
+    "name": "Moderator",
+    "permissions": [
+        "weight.17",
+        "prefix.17.&f{&5Moderator&f}",
+        "nucleus.kittycannon.*",
+        "nucleus.lightning.*",
+        "nucleus.jail.base",
+        "nucleus.mute.base",
+        "nucleus.mute.unmute",
+        "nucleus.staffchat.base",
+        "nucleus.warn.base",
+        "nucleus.kill.base",
+        "nucleus.ban.base",
+        "nucleus.unban.base",
+        "nucleus.time.*",
+        "nucleus.weather.*",
+        "nucleus.freezeplayer.*",
+        "nucleus.gamemode.base",
+        "nucleus.gamemode.modes.creative",
+        "nucleus.gamemode.modes.survival",
+        "nucleus.gamemode.others",
+        "nucleus.clear.base",
+        "nucleus.home.deleteother.base",
+        "nucleus.enchant.unsafe",
+        "nucleus.home.list.others",
+        "VirtualTool.*"
+    ]
+  }
+  

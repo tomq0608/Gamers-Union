@@ -1,0 +1,10 @@
+{
+    "name": "Co-Owner",
+    "permissions": [
+        "weight.19",
+        "prefix.19.&f<&7Co-Owner&f>",
+
+        "*"
+    ]
+  }
+  
