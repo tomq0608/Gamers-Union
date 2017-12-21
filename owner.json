@@ -1,0 +1,8 @@
+{
+  "name": "owner",
+  "permissions": [
+    "nations.*",
+    "*",
+    "weight.20"
+  ]
+}
