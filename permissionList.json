@@ -1,0 +1,206 @@
+groups:
+  Owner:
+    options:
+      prefix: '&f<&8The God&f>'
+      rank: '100'
+    permissions:
+    - *
+    inheritance:
+      - Co-Owner
+      - VIP
+  Co-Owner:
+    options:
+      prefix: '&f<&7Co-Owner&f>'
+      rank: '200'
+    permissions:
+      - *
+    inheritance:
+      - Admin
+      - VIP
+  Admin:
+    options:
+      prefix: '&f{&6Admin&f}'
+      rank: '300'
+    permissions:
+      - nucleus.hat.others
+      - nucleus.geoip.base
+      - nations.*
+      - nucleus.jail.*
+      - nucleus.serverstat.base
+      - nucleus.spawnmob.*
+      - nucleus.vanish.base
+      - nucleus.vanish.see
+      - nucleus.vanish.persist
+      - nucleus.sudo.base
+      - nucleus.clear.others
+      - nucleus.commandspy.*
+      - nucleus.globalmute.base
+      - nucleus.globalmute.voice.auto
+      - nucleus.spawn.*
+    inheritance:
+      - Moderator
+      - VIP
+      - Builder
+  Moderator:
+    options:
+      prefix: '&f{&5Moderator&f}'
+      rank: '400'
+    permissions:
+      - nucleus.kittycannon.*
+      - nucleus.lightning.*
+      - VirtualTool.*
+      - nucleus.jail.base
+      - nucleus.mute.base
+      - nucleus.mute.unmute
+      - nucleus.staffchat.base
+      - nucleus.warn.base
+      - nucleus.kill.base
+      - nucleus.ban.base
+      - nucleus.unban.base
+      - nucleus.time.*
+      - nucleus.weather.*
+      - nucleus.freezeplayer.*
+      - nucleus.gamemode.base
+      - nucleus.gamemode.modes.creative
+      - nucleus.gamemode.modes.survival
+      - nucleus.gamemode.others
+      - nucleus.clear.base
+      - nucleus.home.deleteother.base
+      - nucleus.enchant.unsafe
+      - nucleus.home.list.others
+    inheritance:
+      - Support
+      - VIP
+      - Builder
+  Support:
+    options:
+      prefix: '&f{&3GU Support&f}'
+      rank: '500'
+    permissions:
+      - nucleus.tellplain.base
+      - nucleus.tempban.base
+      - nucleus.kick.base
+      - nucleus.broadcast.base
+      - nucleus.plainbroadcast.base
+      - nucleus.killentity.base
+    inheritance:
+      - Member
+      - Builder
+  VIP:
+    options:
+      prefix: '&f{&6V&0I&6P&f}'
+      rank: '600'
+    permissions:
+      - nucleus.connection.joinfullserver
+      - nucleus.hat.base
+      - nucleus.kittycannon.base
+      - nucleus.skull.*
+      -	nucleus.speed.base
+      - nucleus.jump.base
+      - nucleus.nick.*
+      - nucleus.teleport.teleport.base
+      - nucleus.teleport.tppos.base
+      - nucleus.warp.set.base
+      - nucleus.warp.delete.base
+      - nucleus.enchant.base
+    inheritance:
+      - Member
+  Coder:
+    options:
+      prefix: '&f[&2Coder&f]'
+      rank: '700'
+    inheritance:
+      - Member
+  Builder:
+    options:
+      prefix: '&f[&cBuilder&f]'
+      rank: '800'
+    permissions:
+      - nations.admin.bypass.perm.build
+      - nations.admin.bypass.perm.interact
+      - nations.admin.zone.listall
+      - worldedit.biome.*
+      - worldedit.clipboard.*
+      - worldedit.schematic.*
+      - worldedit.help
+      - worldedit.fast
+      - worldedit.generation.*
+      - worldedit.history.*
+      - worldedit.navigation.*
+      - worldedit.region.*
+      - worldedit.regen
+      - worldedit.region.*
+      - worldedit.selection.*
+      - worldedit.wand.*
+      - worldedit.superpickaxe.*
+      - worldedit.tool.*
+      - worldedit.brush.*
+      - worldedit.fill.*
+      - worldedit.drain
+      - worldedit.drain
+      - worldedit.fixlava
+      - worldedit.fixwater
+      - worldedit.removeabove
+      - worldedit.removebelow
+      - worldedit.removenear
+      - worldedit.replacenear
+      - worldedit.snow
+      - worldedit.thaw
+      - worldedit.green
+      - worldedit.extinguish
+      - worldedit.butcher
+      - worldedit.remove
+    inheritance:
+      - Member
+  Member:
+    options:
+      prefix: '&f[&9Member&f]'
+      rank: '1000'
+      default: true
+    permissions:
+      - nucleus.back.base
+      - nucleus.back.targets.death
+      - nucleus.back.targets.teleport
+      - nucleus.afk.base
+      - nucleus.ban.notify
+      - nucleus.chat.*
+      - nucleus.me.base
+      - nucleus.home.base
+      - nucleus.home.set.base
+      - nucleus.jail.notify
+      - nucleus.ping.*
+      - nucleus.ignore.base
+      - nucleus.mute.notify
+      - nucleus.suicide.base
+      - nucleus.servertime.base
+      - nucleus.realname.base
+      - nucleus.rtp.base
+      - nucleus.spawn.base
+      - nucleus.warp.list.base
+      - nucleus.warp.base
+      - nucleus.kit.base
+      - nucleus.mail.base
+      - nucleus.mail.send.base
+      - nucleus.message.*
+      - nucleus.jail.checkjail.base
+      - nucleus.warn.notify
+      - nucleus.checkban.base
+      - nucleus.home.list.base
+      - nucleus.list.base
+      - nucleus.teleport.tpa.base
+      - nucleus.seen.base
+      - nucleus.teleport.tpahere.base
+      - nucleus.teleport.tpaccept.base
+      - nucleus.teleport.tpdeny.base
+      - nations.command.nation.*
+      - nations.command.zone.*
+      - VirtualTool.command.anvil
+      - VirtualTool.command.help
+      - VirtualTool.command.main
+      - VirtualTool.command.enderchest
+      - VirtualTool.command.workbench
+      - VirtualTool.command.enchantingtable
+      - VirtualTool.command.backpack
+      - VirtualTool.command.enchantingtablepower.*
+
+    inheritance:
